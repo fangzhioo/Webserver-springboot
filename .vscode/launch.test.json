@@ -1,0 +1,28 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "webserver",
+                "projectName": "webserver",
+                "workingDirectory": "c:\\fangzhi\\22-fangzhi\\webserver",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "webserver",
+                "projectName": "webserver",
+                "workingDirectory": "c:\\fangzhi\\22-fangzhi\\webserver",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

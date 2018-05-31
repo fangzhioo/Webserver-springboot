@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.fangzhi.ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.455 s <<< FAILURE! - in com.fangzhi.ApplicationTests
+test(com.fangzhi.ApplicationTests)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fzFileController': Unsatisfied dependency expressed through field 'fileRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fzFileRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.fangzhi.domain.FzFile com.fangzhi.repository.FzFileRepository.findById(java.lang.Long)! No property id found for type FzFile!
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fzFileRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.fangzhi.domain.FzFile com.fangzhi.repository.FzFileRepository.findById(java.lang.Long)! No property id found for type FzFile!
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract com.fangzhi.domain.FzFile com.fangzhi.repository.FzFileRepository.findById(java.lang.Long)! No property id found for type FzFile!
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property id found for type FzFile!
+

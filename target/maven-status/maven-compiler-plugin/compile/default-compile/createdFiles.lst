@@ -1,0 +1,16 @@
+com\fangzhi\domain\FzFile.class
+com\fangzhi\utils\DateKit.class
+com\fangzhi\utils\Tools.class
+com\fangzhi\repository\FzFileRepository.class
+com\fangzhi\web\HelloController.class
+com\fangzhi\utils\DateKit$1.class
+com\fangzhi\repository\UserRepository.class
+com\fangzhi\utils\Types.class
+com\fangzhi\utils\FileConstants.class
+com\fangzhi\utils\CommonConstants.class
+com\fangzhi\utils\UUID.class
+com\fangzhi\utils\Swagger2.class
+com\fangzhi\domain\User.class
+com\fangzhi\web\UserController.class
+com\fangzhi\web\FzFileController.class
+com\fangzhi\Application.class
